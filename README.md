@@ -26,7 +26,8 @@ The first few elements of the queries can be found in![unique_titles](https://gi
 ### retiring_titles table
 * A retiring_titles table is created to find the number of employees retiring with a certain title such that titles having maximum retirees comes first - retrieve the number of titles from the Unique Titles table.Group the table by title, then sort the count column in descending order and exported as [retiring_titles.csv](https://github.com/sucharita1/Pewlett-Hackard-Analysis/blob/d9058c288f1e4e441e1b0147c8bf9894291c553e/Data/retiring_titles.csv)
 
-The first few elements of the queries can be found in ![retiring_titles](https://github.com/sucharita1/Pewlett-Hackard-Analysis/blob/d9058c288f1e4e441e1b0147c8bf9894291c553e/Data/retirement_titles.png?raw=true)
+The first few elements of the queries can be found in 
+![retiring_titles](https://github.com/sucharita1/Pewlett-Hackard-Analysis/blob/d9058c288f1e4e441e1b0147c8bf9894291c553e/Data/retiring_titles.png?raw=true)
 
 ### mentorship_eligibilty table
 * A mentorship_eligibilty table is created to find the number of unique employees whose birth dates are between January 1, 1965 and December 31, 1965, and retireve their emp_no, first_name, last_name, and birth_date columns from the employees table. Retrieve the from_date and to_date columns from the dept_emp table. Retrieve the title column from the titles table.
