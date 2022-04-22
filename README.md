@@ -1,5 +1,5 @@
 # Silver-Tsunami-Analysis
-Migrate an employee database previously on Excel and VBA to SQL for Pewlett Hackard, a technology company and applying data  modelling, engineering, analysis skills on the database to handle an upcoming silver tsunami.
+Migrate an employee database previously on Excel and VBA to SQL for Pewlett Hackard, a hypothetical technology company and applying data  modelling, engineering, analysis skills on the database to handle an upcoming silver tsunami.
 
 ## Overview of the Silver-Tsunami-Analysis
 Bobby is an HR Analyst in Pewlett-Hackard. As baby boomers are retiring at a rapid pace so we need to help Bobby and his manager in the following tasks.
