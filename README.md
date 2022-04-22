@@ -1,7 +1,7 @@
-# Pewlett-Hackard-Analysis
+# Silver-Tsunami-Analysis
 Migrate an employee database previously on Excel and VBA to SQL for Pewlett Hackard, a technology company and applying data  modelling, engineering, analysis skills on the database to handle an upcoming silver tsunami.
 
-## Overview of the Pewlett-Hackard-Analysis
+## Overview of the Silver-Tsunami-Analysis
 Bobby is an HR Analyst in Pewlett-Hackard. As baby boomers are retiring at a rapid pace so we need to help Bobby and his manager in the following tasks.
 * Migrate data in CSV format into SQL tables
 * Determine number of employees retiring per title so that the position can be filled soon.
@@ -12,7 +12,7 @@ Bobby is an HR Analyst in Pewlett-Hackard. As baby boomers are retiring at a rap
 * Data Source: [departents.csv](https://github.com/sucharita1/Pewlett-Hackard-Analysis/blob/d9058c288f1e4e441e1b0147c8bf9894291c553e/Data/departments.csv), [dept_emp.csv](https://github.com/sucharita1/Pewlett-Hackard-Analysis/blob/d9058c288f1e4e441e1b0147c8bf9894291c553e/Data/dept_emp.csv), [dept_manager.csv](https://github.com/sucharita1/Pewlett-Hackard-Analysis/blob/d9058c288f1e4e441e1b0147c8bf9894291c553e/Data/dept_manager.csv), [employees.csv](https://github.com/sucharita1/Pewlett-Hackard-Analysis/blob/d9058c288f1e4e441e1b0147c8bf9894291c553e/Data/employees.csv), [salaries.csv](https://github.com/sucharita1/Pewlett-Hackard-Analysis/blob/d9058c288f1e4e441e1b0147c8bf9894291c553e/Data/salaries.csv), [titles.csv](https://github.com/sucharita1/Pewlett-Hackard-Analysis/blob/d9058c288f1e4e441e1b0147c8bf9894291c553e/Data/titles.csv)
 * Software: Postgresql -x64-11, pgAdmin 4 - version5.7
 
-## Pewlett-Hackard-Analysis Results:
+## Silver-Tsunami-Analysis Results:
 ### retirement_titles table 
 * A retirement_titles table is created to find the total retiring employees by title -by joining employees and titles tables retrieving  the emp_no, first_name, and last_name columns from the employees table and title, from_date, and to_date columns from the titles table and joining them both such that only the employees about to retire that i.e. employees who are born between January 1, 1952 and December 31, 1955 are included and exported as [retirement_titles.csv](https://github.com/sucharita1/Pewlett-Hackard-Analysis/blob/d9058c288f1e4e441e1b0147c8bf9894291c553e/Data/retirement_titles.csv)
 
@@ -36,7 +36,7 @@ by performing a join with employee, dept_emp and titles table after filtering th
 
 The queries executed above and below can be found in [Employee_Database_challenge](https://github.com/sucharita1/Pewlett-Hackard-Analysis/blob/d9058c288f1e4e441e1b0147c8bf9894291c553e/Queries/Employee_Database_challenge.sql)
 
-## Pewlett-Hackard-Analysis Summary:
+## Silver-Tsunami-Analysis Summary:
 #### A big part of the anlaysis is future-proofing the company by determining how many people will be retiring and, of those employees, who is eligible for a retirement package. 
 
 Looking at the retiring_titles table we can say that the total number of people born between 1952 and 1955 are : 90398 
